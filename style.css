@@ -1,0 +1,195 @@
+
+header{
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns:33vw;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    padding: 20px;
+
+    background: #FFD900;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+#card{
+    width: 50%;
+    height: 400px;
+    margin: -42px -8px;
+
+    text-align: center;
+    background: #514988;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 20px;
+
+    color:#F3C61F;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 4px;
+    margin-top: -40px;
+
+    color: white;
+}
+
+p{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    align-items: center;
+    
+    color:#FFFFFF;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:11vw;
+
+    margin: -455px 680px;
+    padding: 10px;
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #514988;
+}
+
+.pd{
+    margin-top: -104px;
+    margin-left: 35px;
+    padding-right: -50px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    color: #514988;
+}
+
+.ph{
+    margin-top: -104px;
+    margin-left: 70px;
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    color: #514988;
+}
+
+.pm{
+    margin-top: -104px;
+    margin-left: 70px;
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    color: #514988;
+}
+
+.ps{
+    margin-top: -104px;
+    margin-left: 70px;
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    color: #514988;
+}
+
+.filme{
+
+    margin: -385px;
+    margin-left: 675px;
+}
+
+h4{
+    margin: 370px 674px;
+    padding: 20px;
+    padding-top:33px;
+    font-size: 15px;
+    white-space: nowrap;
+    color: #E33881;
+}
+
+footer{
+    position: relative;
+    padding:auto;
+}
+
+h5{
+    margin: 400px 0px 0px 50px;
+    padding: 5px;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #F3C61F;
+}
+
+#qui{
+    width: 150px;
+    padding: 15px;
+    margin-bottom:38px ;
+    margin-left: 30px;
+}
+
+#sex{
+    width: 150px;
+    padding: 15px;
+    margin-bottom:38px ;
+    margin-left: -40px;
+}
+
+#sab{
+    width: 150px;
+    padding: 15px;
+    margin-bottom:38px ;
+    margin-left: -44px;
+}
+
+#dom{
+    width: 150px;
+    padding: 15px;
+    margin-bottom:38px ;
+    margin-left: -44px;
+}
+
+button{
+    position: absolute;
+    width: 350px;
+    height: 85px;
+    margin-top: -13vw;
+    margin-left: 780px;
+
+    background: #514988;
+    color:#FFFFFF;
+    border-radius: 20px;
+    border: 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #F3C61F;
+}
+
+
+
