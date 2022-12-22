@@ -3,7 +3,7 @@ const hora = document.getElementById(`hora`)
 const minuto = document.getElementById(`minuto`)
 const segundo = document.getElementById(`segundo`)
 
-const ccpxday = "22 dec 2022"
+const ccpxday = "29 dec 2022"
 
 function countDown(){
     const dataCCPX = new Date(ccpxday)
