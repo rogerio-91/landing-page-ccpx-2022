@@ -16,10 +16,10 @@ function countDown(){
     const  finalMinutos = Math.floor(segTotal / 60) % 60;
     const  finalSegundos = Math.floor(segTotal) % 60;
 
-    dia.innerHTML = finalDias
-    hora.innerHTML = formatoTempo(finalHoras)
-    minuto.innerHTML = formatoTempo(finalMinutos)
-    segundo.innerHTML = formatoTempo(finalSegundos)
+    dia.innerHTML = formatoTempo(finalDias)+"D"
+    hora.innerHTML = formatoTempo(finalHoras)+"H"
+    minuto.innerHTML = formatoTempo(finalMinutos)+"M"
+    segundo.innerHTML = formatoTempo(finalSegundos)+"S"
 }
 
 function formatoTempo(tempo){

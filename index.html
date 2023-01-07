@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>CCPX 2022</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <img src="ccxp 2.png" alt="Logo CCPX">
@@ -16,14 +18,14 @@
             <h1>REVIVA O ÉPICO</h1>
             <h2>DE 22 A 25 DE DEZEMBRO</h2>
             <p>
-                Você consegue sentir? É aquela sensação de<br> 
-                finalmente poder falar em voz alta: "estamos<br>  
-                em casa". Sim, em dezembro de 2022,<br>  
-                teremos a volta da CCXP física. Mas não será<br>  
-                qualquer CCXP, vai ser a maior de todos os<br>  
-                tempos. Prepare-se para visitar seus<br>  
-                universos favoritos, explorar o Artists' Valley,<br> 
-                se emocionar nos auditórios e encontrar<br> 
+                Você consegue sentir? É aquela sensação de<br>
+                finalmente poder falar em voz alta: "estamos<br>
+                em casa". Sim, em dezembro de 2022,<br>
+                teremos a volta da CCXP física. Mas não será<br>
+                qualquer CCXP, vai ser a maior de todos os<br>
+                tempos. Prepare-se para visitar seus<br>
+                universos favoritos, explorar o Artists' Valley,<br>
+                se emocionar nos auditórios e encontrar<br>
                 aventuras épicas a cada passo pelos nossos corredores.
             </p>
         </div>
@@ -32,45 +34,57 @@
 
             <div class="timer">
                 <div>
-                    <h3 id="dia">00</h3>
-                    <p class="pd">D</p>
+                    <h3 class="cd-item" id="dia">00</h3>
                 </div>
                 <div>
-                    <h3 id="hora">00</h3>
-                    <p class="ph">H</p>
+                    <h3 class="cd-item" id="hora">00</h3>
                 </div>
                 <div>
-                    <h3 id="minuto">00</h3>
-                    <p class="pm" >M</p>
+                    <h3 class="cd-item" id="minuto">00</h3>
                 </div>
                 <div>
-                    <h3 id="segundo">00</h3>
-                    <p class="ps">S</p>
-                </div>          
+                    <h3 class="cd-item" id="segundo">00</h3>
+                </div>
             </div>
 
             <div>
                 <h4>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h4>
             </div>
-            
+
             <div class="filme">
-                <video width="590px" controls loop><source type="video/mp4" src="Arlequina.mp4"></video>       
+                <video width="590px" controls loop>
+                    <source type="video/mp4" src="Arlequina.mp4">
+                </video>
             </div>
-            
+
         </div>
     </section>
     <footer>
         <div id="rodape">
             <h5>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h5>
-            <img id="qui" src="quint.png" alt="">
-            <img id="sex" src="sext.png" alt="">
-            <img id="sab" src="sab.png" alt="">
-            <img id="dom" src="dom.png" alt="">
+            <img id="qui" onclick="selectCard('#qui')" onmouseover="highlightCard('#qui')"
+                onmouseout="highlightCard('#qui')" class="cards-ingressos" src="quint.png" alt="">
+            <img id="sex" onclick="selectCard('#sex')" onmouseover="highlightCard('#sex')"
+                onmouseout="highlightCard('#sex')" class="cards-ingressos" src="sext.png" alt="">
+            <img id="sab" onclick="selectCard('#sab')" onmouseover="highlightCard('#sab')"
+                onmouseout="highlightCard('#sab')" class="cards-ingressos" src="sab.png" alt="">
+            <img id="dom" onclick="selectCard('#dom')" onmouseover="highlightCard('#dom')"
+                onmouseout="highlightCard('#dom')" class="cards-ingressos" src="dom.png" alt="">
         </div>
         <div>
-            <button>GARANTA O SEU!</button>
-        </div>     
+            <button onclick="showSelectCards()">GARANTA O SEU!</button>
+        </div>
+
+        <div>
+            <form action="https://www.google.com">
+                <input type="email" placeholder="Seu email" required />
+                <input type="submit" />
+            </form>
+        </div>
+
     </footer>
     <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
